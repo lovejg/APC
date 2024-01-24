@@ -1,0 +1,122 @@
+
+up to date, audited 1009 packages in 3s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (7 moderate, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+> front@0.1.0 build
+> vue-cli-service build
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+All browser targets in the browserslist configuration have supported ES module.
+Therefore we don't build two separate bundles for differential loading.
+
+
+-  Building for production...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ WARNING  Compiled with 2 warnings12:43:50 AM
+
+ warning  
+
+asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  users/img/videocutcut.1f74e462.gif (7.03 MiB)
+  users/img/apcArchitecture.5fad2e1c.png (744 KiB)
+  users/img/apcRoad.2c40b3dd.png (535 KiB)
+  users/js/chunk-vendors.da43b988.js (289 KiB)
+
+ warning  
+
+entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  app (382 KiB)
+      users/css/chunk-vendors.ad53c7fa.css
+      users/js/chunk-vendors.da43b988.js
+      users/css/app.ba0396b2.css
+      users/js/app.50d994a8.js
+
+
+  File                                      Size             Gzipped
+
+  ../back/public/users/js/chunk-vendors.    289.36 KiB       100.30 KiB
+  da43b988.js
+  ../back/public/users/js/app.50d994a8.j    32.15 KiB        8.10 KiB
+  s
+  ../back/public/users/js/817.e529ea94.j    20.24 KiB        3.47 KiB
+  s
+  ../back/public/users/js/445.95013c56.j    15.42 KiB        3.45 KiB
+  s
+  ../back/public/users/js/451.af5d5216.j    7.09 KiB         2.64 KiB
+  s
+  ../back/public/users/js/790.575468a6.j    6.07 KiB         1.50 KiB
+  s
+  ../back/public/users/js/880.84e910db.j    3.44 KiB         1.27 KiB
+  s
+  ../back/public/users/css/app.ba0396b2.    38.34 KiB        7.16 KiB
+  css
+  ../back/public/users/css/chunk-vendors    22.55 KiB        4.54 KiB
+  .ad53c7fa.css
+
+  Images and other types of assets omitted.
+  Build at: 2024-01-05T00:43:50.496Z - Hash: adff63673e60ee9d - Time: 4803ms
+
+ DONE  Build complete. The ../back/public directory is ready to be deployed.
+ INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+       
+
+up to date, audited 238 packages in 610ms
+
+17 packages are looking for funding
+  run `npm fund` for details
+
+4 vulnerabilities (3 moderate, 1 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+> back@0.0.0 start
+> node ./bin/www
+
+Successfully connected to mongodb
+Hangup
